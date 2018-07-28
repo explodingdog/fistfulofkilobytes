@@ -1,0 +1,45 @@
+body {
+  font-size: x-large;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    yellow,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+}
+
+div.wrapper {
+  border-style: outset;
+}
+
+.wrapper {
+  display: grid;
+  margin: auto;
+  width: 90%;
+  height: 100%;
+  grid-template-columns: repeat(3, auto);
+  /*! grid-gap: 1; */
+  grid-template-rows: repeat(5, 20%);
+  background-color: grey;
+}
+
+div {
+  border-style: inset;
+  margin: 3px;
+}
+
+h1 {
+  font-size: 3em;
+  font-style: italic;
+  color: red;
+  text-shadow: 3px 3px 0 black;
+}
+
+em {
+  color: yellow;
+  font-size: 1.5em;
+}
